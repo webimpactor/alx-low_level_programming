@@ -4,7 +4,7 @@
 /**
  * main - serves as program entry point.
  *
- * return value of main, if zero - no error, non zero value if error.
+ * Return: Always 0 (Success)
 */
 
 int main(void)
