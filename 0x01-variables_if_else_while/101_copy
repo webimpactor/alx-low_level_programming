@@ -19,23 +19,21 @@ int main(void)
 		{
 			for (z = k; z <= '9'; z++)
 			{
-				if (x < y && y < z)
+				putchar (x);
+				putchar (y);
+				putchar (z);
+				if (!(x == '7' && y == '8' && z == '9'))
 				{
-					putchar (x);
-					putchar (y);
-					putchar (z);
-					if (!(x == '7' && y == '8' && z == '9'))
-					{
-						putchar (',');
-						putchar (' ');
-					}
-					else
-					{
-						break;
-					}
+					putchar (',');
+					putchar (' ');
+				}
+				else
+				{
+					break;
 				}
 			}
 		}
+		c++;
 	}
 	putchar ('\n');
 	return (0);
