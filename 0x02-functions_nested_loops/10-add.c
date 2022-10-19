@@ -2,8 +2,8 @@
 
 /**
  * add - adds two integers
- * @int num1: first integer
- * @int num2: second integer
+ * @num1: first integer
+ * @num2: second integer
  * Return: result of the operation
  */
 
